@@ -1,0 +1,2 @@
+C:\Users\김동욱\source\repos\C_NM1\Debug\C_NM1.exe
+C:\Users\김동욱\source\repos\C_NM1\Debug\C_NM1.pdb
