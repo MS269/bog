@@ -10,11 +10,13 @@ const (
 	max = 8 + 1
 )
 
-var br = bufio.NewReader(os.Stdin)
-var bw = bufio.NewWriter(os.Stdout)
-var n, m int
-var numList [max]int
-var checkList [max]bool
+var (
+	br        = bufio.NewReader(os.Stdin)
+	bw        = bufio.NewWriter(os.Stdout)
+	n, m      int
+	numList   [max]int
+	checkList [max]bool
+)
 
 func permutation(cnt int) {
 	if cnt == m {

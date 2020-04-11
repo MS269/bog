@@ -14,7 +14,7 @@ namespace CS_NM1
         static List<int> numList = new List<int>();
         static bool[] checkList = new bool[Constants.Max];
 
-        static void permutation(int cnt)
+        static void Permutation(int cnt)
         {
             if (cnt == m)
             {
@@ -32,7 +32,7 @@ namespace CS_NM1
                 {
                     numList.Add(i);
                     checkList[i] = true;
-                    permutation(cnt + 1);
+                    Permutation(cnt + 1);
                     numList.RemoveAt(cnt);
                     checkList[i] = false;
                 }
@@ -45,7 +45,7 @@ namespace CS_NM1
             n = Convert.ToInt32(input[0]);
             m = Convert.ToInt32(input[1]);
 
-            permutation(0);
+            Permutation(0);
         }
     }
 }
