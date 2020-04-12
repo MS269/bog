@@ -1,20 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace CS_NM1
+namespace CS_NM3
 {
-    static class Constants
-    {
-        public const int Max = 8 + 1;
-    }
-
-    class Program
+    class NM3
     {
         static int n, m;
         static List<int> numList = new List<int>();
-        static bool[] checkList = new bool[Constants.Max];
 
-        static void Combination(int cnt, int cur)
+        static void PermutationWithRepetition(int cnt)
         {
             if (cnt == m)
             {
@@ -26,16 +20,11 @@ namespace CS_NM1
                 return;
             }
 
-            for (int i = cur; i <= n; i++)
+            for (int i = 1; i <= n; i++)
             {
-                if (!checkList[i])
-                {
-                    numList.Add(i);
-                    checkList[i] = true;
-                    Combination(cnt + 1, i + 1);
-                    numList.RemoveAt(cnt);
-                    checkList[i] = false;
-                }
+                numList.Add(i);
+                PermutationWithRepetition(cnt + 1);
+                numList.RemoveAt(cnt);
             }
         }
 
@@ -45,7 +34,7 @@ namespace CS_NM1
             n = Convert.ToInt32(input[0]);
             m = Convert.ToInt32(input[1]);
 
-            Combination(0, 1);
+            PermutationWithRepetition(0);
         }
     }
 }

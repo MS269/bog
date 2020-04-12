@@ -8,7 +8,7 @@ namespace CS_NM1
         public const int Max = 8 + 1;
     }
 
-    class Program
+    class NM1
     {
         static int n, m;
         static List<int> numList = new List<int>();
