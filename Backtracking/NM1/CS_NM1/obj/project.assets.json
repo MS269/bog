@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\김동욱\\source\\repos\\CS_NM1\\CS_NM1.csproj",
+      "projectUniqueName": "C:\\Prog\\BOG\\Backtracking\\NM1\\CS_NM1\\CS_NM1.csproj",
       "projectName": "CS_NM1",
-      "projectPath": "C:\\Users\\김동욱\\source\\repos\\CS_NM1\\CS_NM1.csproj",
+      "projectPath": "C:\\Prog\\BOG\\Backtracking\\NM1\\CS_NM1\\CS_NM1.csproj",
       "packagesPath": "C:\\Users\\김동욱\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\김동욱\\source\\repos\\CS_NM1\\obj\\",
+      "outputPath": "C:\\Prog\\BOG\\Backtracking\\NM1\\CS_NM1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\김동욱\\AppData\\Roaming\\NuGet\\NuGet.Config",

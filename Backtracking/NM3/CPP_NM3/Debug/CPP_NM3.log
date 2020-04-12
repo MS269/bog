@@ -1,0 +1,3 @@
+﻿  CPP_NM3.cpp
+C:\Users\김동욱\source\repos\CPP_NM3\CPP_NM3.cpp(15,27): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  CPP_NM3.vcxproj -> C:\Users\김동욱\source\repos\CPP_NM3\Debug\CPP_NM3.exe

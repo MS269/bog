@@ -1,0 +1,13 @@
+C:\Users\김동욱\source\repos\CS_NM3\bin\Debug\netcoreapp3.1\CS_NM3.exe
+C:\Users\김동욱\source\repos\CS_NM3\bin\Debug\netcoreapp3.1\CS_NM3.deps.json
+C:\Users\김동욱\source\repos\CS_NM3\bin\Debug\netcoreapp3.1\CS_NM3.runtimeconfig.json
+C:\Users\김동욱\source\repos\CS_NM3\bin\Debug\netcoreapp3.1\CS_NM3.runtimeconfig.dev.json
+C:\Users\김동욱\source\repos\CS_NM3\bin\Debug\netcoreapp3.1\CS_NM3.dll
+C:\Users\김동욱\source\repos\CS_NM3\bin\Debug\netcoreapp3.1\CS_NM3.pdb
+C:\Users\김동욱\source\repos\CS_NM3\obj\Debug\netcoreapp3.1\CS_NM3.csprojAssemblyReference.cache
+C:\Users\김동욱\source\repos\CS_NM3\obj\Debug\netcoreapp3.1\CS_NM3.csproj.CoreCompileInputs.cache
+C:\Users\김동욱\source\repos\CS_NM3\obj\Debug\netcoreapp3.1\CS_NM3.AssemblyInfoInputs.cache
+C:\Users\김동욱\source\repos\CS_NM3\obj\Debug\netcoreapp3.1\CS_NM3.AssemblyInfo.cs
+C:\Users\김동욱\source\repos\CS_NM3\obj\Debug\netcoreapp3.1\CS_NM3.dll
+C:\Users\김동욱\source\repos\CS_NM3\obj\Debug\netcoreapp3.1\CS_NM3.pdb
+C:\Users\김동욱\source\repos\CS_NM3\obj\Debug\netcoreapp3.1\CS_NM3.genruntimeconfig.cache
