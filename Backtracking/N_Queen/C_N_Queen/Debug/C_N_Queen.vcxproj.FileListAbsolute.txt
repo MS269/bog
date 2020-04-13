@@ -1,0 +1,4 @@
+C:\Users\김동욱\source\repos\C_N_Queen\Debug\C_N_Queen.exe
+C:\Users\김동욱\source\repos\C_N_Queen\Debug\C_N_Queen.pdb
+C:\Prog\BOG\Backtracking\N_Queen\C_N_Queen\Debug\C_N_Queen.exe
+C:\Prog\BOG\Backtracking\N_Queen\C_N_Queen\Debug\C_N_Queen.pdb
