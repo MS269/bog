@@ -8,7 +8,7 @@ public class NM1 {
     static BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
     static int n, m;
     static int[] numList = new int[MAX];
-    static Boolean[] checkList = new Boolean[MAX];
+    static boolean[] checkList = new boolean[MAX];
 
     static void permutation(int cnt) throws IOException {
         if (cnt == m) {

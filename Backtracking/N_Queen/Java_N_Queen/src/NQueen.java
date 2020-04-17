@@ -2,7 +2,7 @@ import java.io.*;
 
 public class NQueen {
     static int n, ans;
-    static Boolean[] height, downTopDiagonal, topDownDiagonal;
+    static boolean[] height, downTopDiagonal, topDownDiagonal;
 
     static void nQueen(int i) {
         if (i == n) {
@@ -30,9 +30,9 @@ public class NQueen {
 
         n = Integer.parseInt(br.readLine());
 
-        height = new Boolean[n];
-        downTopDiagonal = new Boolean[2 * n - 1];
-        topDownDiagonal = new Boolean[2 * n - 1];
+        height = new boolean[n];
+        downTopDiagonal = new boolean[2 * n - 1];
+        topDownDiagonal = new boolean[2 * n - 1];
 
         for (int i = 0; i < n; i++) {
             height[i] = false;
