@@ -2,7 +2,9 @@ import sys
 
 
 n, ans = int(sys.stdin.readline()), 0
-height, down_top_diagonal, top_down_diagonal = [False]*n, [False]*(2*n-1), [False]*(2*n-1)
+height = [False] * n
+down_top_diagonal = [False] * (2 * n - 1)
+top_down_diagonal = [False] * (2 * n - 1)
 
 
 def n_queen(i):

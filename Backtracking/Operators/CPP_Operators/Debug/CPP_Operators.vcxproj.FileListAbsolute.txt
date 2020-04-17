@@ -1,0 +1,2 @@
+C:\Users\김동욱\source\repos\CPP_Operators\Debug\CPP_Operators.exe
+C:\Users\김동욱\source\repos\CPP_Operators\Debug\CPP_Operators.pdb

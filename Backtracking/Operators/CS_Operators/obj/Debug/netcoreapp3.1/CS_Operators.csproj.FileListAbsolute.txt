@@ -1,0 +1,13 @@
+C:\Users\김동욱\source\repos\CS_Operators\bin\Debug\netcoreapp3.1\CS_Operators.exe
+C:\Users\김동욱\source\repos\CS_Operators\bin\Debug\netcoreapp3.1\CS_Operators.deps.json
+C:\Users\김동욱\source\repos\CS_Operators\bin\Debug\netcoreapp3.1\CS_Operators.runtimeconfig.json
+C:\Users\김동욱\source\repos\CS_Operators\bin\Debug\netcoreapp3.1\CS_Operators.runtimeconfig.dev.json
+C:\Users\김동욱\source\repos\CS_Operators\bin\Debug\netcoreapp3.1\CS_Operators.dll
+C:\Users\김동욱\source\repos\CS_Operators\bin\Debug\netcoreapp3.1\CS_Operators.pdb
+C:\Users\김동욱\source\repos\CS_Operators\obj\Debug\netcoreapp3.1\CS_Operators.csprojAssemblyReference.cache
+C:\Users\김동욱\source\repos\CS_Operators\obj\Debug\netcoreapp3.1\CS_Operators.csproj.CoreCompileInputs.cache
+C:\Users\김동욱\source\repos\CS_Operators\obj\Debug\netcoreapp3.1\CS_Operators.AssemblyInfoInputs.cache
+C:\Users\김동욱\source\repos\CS_Operators\obj\Debug\netcoreapp3.1\CS_Operators.AssemblyInfo.cs
+C:\Users\김동욱\source\repos\CS_Operators\obj\Debug\netcoreapp3.1\CS_Operators.dll
+C:\Users\김동욱\source\repos\CS_Operators\obj\Debug\netcoreapp3.1\CS_Operators.pdb
+C:\Users\김동욱\source\repos\CS_Operators\obj\Debug\netcoreapp3.1\CS_Operators.genruntimeconfig.cache
