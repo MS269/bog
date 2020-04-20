@@ -1,0 +1,2 @@
+C:\Users\김동욱\source\repos\CFibonacci\Debug\CFibonacci.exe
+C:\Users\김동욱\source\repos\CFibonacci\Debug\CFibonacci.pdb
