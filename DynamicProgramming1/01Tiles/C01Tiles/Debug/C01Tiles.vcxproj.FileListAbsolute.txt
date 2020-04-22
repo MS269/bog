@@ -1,0 +1,2 @@
+C:\Users\김동욱\source\repos\C01Tiles\Debug\C01Tiles.exe
+C:\Users\김동욱\source\repos\C01Tiles\Debug\C01Tiles.pdb
