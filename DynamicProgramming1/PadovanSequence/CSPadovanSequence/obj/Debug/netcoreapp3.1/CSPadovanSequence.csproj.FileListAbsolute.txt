@@ -1,0 +1,13 @@
+C:\Users\김동욱\source\repos\CSPadovanSequence\bin\Debug\netcoreapp3.1\CSPadovanSequence.exe
+C:\Users\김동욱\source\repos\CSPadovanSequence\bin\Debug\netcoreapp3.1\CSPadovanSequence.deps.json
+C:\Users\김동욱\source\repos\CSPadovanSequence\bin\Debug\netcoreapp3.1\CSPadovanSequence.runtimeconfig.json
+C:\Users\김동욱\source\repos\CSPadovanSequence\bin\Debug\netcoreapp3.1\CSPadovanSequence.runtimeconfig.dev.json
+C:\Users\김동욱\source\repos\CSPadovanSequence\bin\Debug\netcoreapp3.1\CSPadovanSequence.dll
+C:\Users\김동욱\source\repos\CSPadovanSequence\bin\Debug\netcoreapp3.1\CSPadovanSequence.pdb
+C:\Users\김동욱\source\repos\CSPadovanSequence\obj\Debug\netcoreapp3.1\CSPadovanSequence.csprojAssemblyReference.cache
+C:\Users\김동욱\source\repos\CSPadovanSequence\obj\Debug\netcoreapp3.1\CSPadovanSequence.csproj.CoreCompileInputs.cache
+C:\Users\김동욱\source\repos\CSPadovanSequence\obj\Debug\netcoreapp3.1\CSPadovanSequence.AssemblyInfoInputs.cache
+C:\Users\김동욱\source\repos\CSPadovanSequence\obj\Debug\netcoreapp3.1\CSPadovanSequence.AssemblyInfo.cs
+C:\Users\김동욱\source\repos\CSPadovanSequence\obj\Debug\netcoreapp3.1\CSPadovanSequence.dll
+C:\Users\김동욱\source\repos\CSPadovanSequence\obj\Debug\netcoreapp3.1\CSPadovanSequence.pdb
+C:\Users\김동욱\source\repos\CSPadovanSequence\obj\Debug\netcoreapp3.1\CSPadovanSequence.genruntimeconfig.cache
