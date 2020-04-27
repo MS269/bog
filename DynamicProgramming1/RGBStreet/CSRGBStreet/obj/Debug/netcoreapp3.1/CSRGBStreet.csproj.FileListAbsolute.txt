@@ -1,0 +1,13 @@
+C:\Users\김동욱\source\repos\CSRGBStreet\bin\Debug\netcoreapp3.1\CSRGBStreet.exe
+C:\Users\김동욱\source\repos\CSRGBStreet\bin\Debug\netcoreapp3.1\CSRGBStreet.deps.json
+C:\Users\김동욱\source\repos\CSRGBStreet\bin\Debug\netcoreapp3.1\CSRGBStreet.runtimeconfig.json
+C:\Users\김동욱\source\repos\CSRGBStreet\bin\Debug\netcoreapp3.1\CSRGBStreet.runtimeconfig.dev.json
+C:\Users\김동욱\source\repos\CSRGBStreet\bin\Debug\netcoreapp3.1\CSRGBStreet.dll
+C:\Users\김동욱\source\repos\CSRGBStreet\bin\Debug\netcoreapp3.1\CSRGBStreet.pdb
+C:\Users\김동욱\source\repos\CSRGBStreet\obj\Debug\netcoreapp3.1\CSRGBStreet.csprojAssemblyReference.cache
+C:\Users\김동욱\source\repos\CSRGBStreet\obj\Debug\netcoreapp3.1\CSRGBStreet.csproj.CoreCompileInputs.cache
+C:\Users\김동욱\source\repos\CSRGBStreet\obj\Debug\netcoreapp3.1\CSRGBStreet.AssemblyInfoInputs.cache
+C:\Users\김동욱\source\repos\CSRGBStreet\obj\Debug\netcoreapp3.1\CSRGBStreet.AssemblyInfo.cs
+C:\Users\김동욱\source\repos\CSRGBStreet\obj\Debug\netcoreapp3.1\CSRGBStreet.dll
+C:\Users\김동욱\source\repos\CSRGBStreet\obj\Debug\netcoreapp3.1\CSRGBStreet.pdb
+C:\Users\김동욱\source\repos\CSRGBStreet\obj\Debug\netcoreapp3.1\CSRGBStreet.genruntimeconfig.cache

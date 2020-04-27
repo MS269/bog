@@ -1,7 +1,7 @@
 import sys
 
-
 MAX = 41
+
 memo_0 = [1, 0]
 memo_1 = [0, 1]
 

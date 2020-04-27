@@ -1,6 +1,5 @@
 import sys
 
-
 MAX = 8 + 1
 
 n, m = map(int, sys.stdin.readline().split())

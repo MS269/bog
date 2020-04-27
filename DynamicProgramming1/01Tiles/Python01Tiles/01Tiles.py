@@ -1,6 +1,5 @@
 import sys
 
-
 MOD = 15746
 
 n = int(sys.stdin.readline())

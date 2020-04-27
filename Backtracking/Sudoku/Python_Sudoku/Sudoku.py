@@ -1,6 +1,5 @@
 import sys
 
-
 matrix = list(list(map(int, sys.stdin.readline().split())) for _ in range(9))
 row = [[False for _ in range(10)] for _ in range(9)]
 column = [[False for _ in range(10)] for _ in range(9)]

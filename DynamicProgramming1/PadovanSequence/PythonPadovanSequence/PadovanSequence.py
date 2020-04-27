@@ -1,6 +1,5 @@
 import sys
 
-
 MAX = 100
 
 padovan_sequence = [0, 1, 1, 1]

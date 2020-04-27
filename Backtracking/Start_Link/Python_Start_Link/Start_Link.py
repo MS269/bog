@@ -1,7 +1,6 @@
 import sys
 from itertools import combinations
 
-
 n = int(sys.stdin.readline())
 s = list(list(map(int, sys.stdin.readline().split())) for _ in range(n))
 min_diff = sys.maxsize
