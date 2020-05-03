@@ -1,7 +1,7 @@
 #include <iostream>
-#include <string>
-//#include <vector>
+#include <vector>
 //#include <utility>
+//#include <string>
 //#include <algorithm>
 //#include <cmath>
 //#include <climits>
@@ -9,6 +9,8 @@
 using namespace std;
 
 //using ll = long long;
+
+const int kMod = 15746;
 
 int main() {
 #define DEBUG
@@ -29,16 +31,12 @@ int main() {
 
   int n;
   cin >> n;
-  int cnt = 0;
-  int title = 665;
-  string s;
-  while (cnt != n) {
-    title++;
-    s = to_string(title);
-    if (s.find("666") != string::npos)
-      cnt++;
-  }
-  cout << title;
+  vector<int> dp(n + 1);
+  dp[1] = 1;
+  dp[2] = 2;
+  for (int i = 3; i <= n; i++)
+    dp[i] = (dp[i - 1] + dp[i - 2]) % kMod;
+  cout << dp[n];
 
   return 0;
 }

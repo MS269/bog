@@ -9,8 +9,7 @@
 using namespace std;
 //using ll = long long;
 
-int main()
-{
+int main() {
 #define DEBUG
 #ifndef DEBUG
 #define DEBUG
@@ -32,17 +31,14 @@ int main()
   int min_constructor = 0;
   int decomposition;
   int constructor;
-  for (int i = 1; i < n; i++)
-  {
+  for (int i = 1; i < n; i++) {
     decomposition = i;
     constructor = i;
-    while (constructor != 0)
-    {
+    while (constructor != 0) {
       decomposition += constructor % 10;
       constructor /= 10;
     }
-    if (decomposition == n)
-    {
+    if (decomposition == n) {
       min_constructor = i;
       break;
     }

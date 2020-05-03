@@ -1,14 +1,16 @@
 #include <iostream>
-#include <string>
-//#include <vector>
+#include <vector>
 //#include <utility>
+//#include <string>
 //#include <algorithm>
 //#include <cmath>
 //#include <climits>
 
 using namespace std;
 
-//using ll = long long;
+using ll = long long;
+
+const int kMax = 100;
 
 int main() {
 #define DEBUG
@@ -27,18 +29,16 @@ int main() {
   cout.tie(nullptr);
 #endif // FASTIO
 
+  int t;
+  cin >> t;
+  vector<ll> dp(kMax + 1, 1);
+  for (int i = 4; i <= kMax; i++)
+    dp[i] = dp[i - 3] + dp[i - 2];
   int n;
-  cin >> n;
-  int cnt = 0;
-  int title = 665;
-  string s;
-  while (cnt != n) {
-    title++;
-    s = to_string(title);
-    if (s.find("666") != string::npos)
-      cnt++;
+  while (t--) {
+    cin >> n;
+    cout << dp[n] << "\n";
   }
-  cout << title;
 
   return 0;
 }

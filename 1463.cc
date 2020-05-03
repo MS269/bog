@@ -1,8 +1,8 @@
 #include <iostream>
-#include <string>
-//#include <vector>
+#include <vector>
+#include <algorithm>
 //#include <utility>
-//#include <algorithm>
+//#include <string>
 //#include <cmath>
 //#include <climits>
 
@@ -29,16 +29,15 @@ int main() {
 
   int n;
   cin >> n;
-  int cnt = 0;
-  int title = 665;
-  string s;
-  while (cnt != n) {
-    title++;
-    s = to_string(title);
-    if (s.find("666") != string::npos)
-      cnt++;
+  vector<int> dp(n + 1);
+  for (int i = 2; i <= n; i++) {
+    dp[i] = dp[i - 1] + 1;
+    if (i % 3 == 0)
+      dp[i] = min(dp[i], dp[i / 3] + 1);
+    if (i % 2 == 0)
+      dp[i] = min(dp[i], dp[i / 2] + 1);
   }
-  cout << title;
+  cout << dp[n];
 
   return 0;
 }

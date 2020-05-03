@@ -35,37 +35,27 @@ vector<string> board;
 int CheckWBBoard(int x, int y)
 {
   int cnt = 0;
-  for (int i = 0; i < 8; i++)
-  {
-    for (int j = 0; j < 8; j++)
-    {
+  for (int i = 0; i < 8; i++) {
+    for (int j = 0; j < 8; j++) {
       if (board[x + i][y + j] != wbboard[i][j])
-      {
         cnt++;
-      }
     }
   }
   return cnt;
 }
 
-int CheckBWBoard(int x, int y)
-{
+int CheckBWBoard(int x, int y) {
   int cnt = 0;
-  for (int i = 0; i < 8; i++)
-  {
-    for (int j = 0; j < 8; j++)
-    {
+  for (int i = 0; i < 8; i++) {
+    for (int j = 0; j < 8; j++) {
       if (board[x + i][y + j] != bwboard[i][j])
-      {
         cnt++;
-      }
     }
   }
   return cnt;
 }
 
-int main()
-{
+int main() {
 #define DEBUG
 #ifndef DEBUG
 #define DEBUG
@@ -86,14 +76,10 @@ int main()
   cin >> n >> m;
   board.resize(n);
   for (int i = 0; i < n; i++)
-  {
     cin >> board[i];
-  }
   int min_cnt = INT_MAX;
-  for (int i = 0; i <= n - 8; i++)
-  {
-    for (int j = 0; j <= m - 8; j++)
-    {
+  for (int i = 0; i <= n - 8; i++) {
+    for (int j = 0; j <= m - 8; j++) {
       min_cnt = min(min_cnt, CheckWBBoard(i, j));
       min_cnt = min(min_cnt, CheckBWBoard(i, j));
     }

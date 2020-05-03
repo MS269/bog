@@ -1,8 +1,8 @@
 #include <iostream>
-#include <string>
-//#include <vector>
+#include <vector>
+#include <algorithm>
 //#include <utility>
-//#include <algorithm>
+//#include <string>
 //#include <cmath>
 //#include <climits>
 
@@ -29,16 +29,18 @@ int main() {
 
   int n;
   cin >> n;
-  int cnt = 0;
-  int title = 665;
-  string s;
-  while (cnt != n) {
-    title++;
-    s = to_string(title);
-    if (s.find("666") != string::npos)
-      cnt++;
+  vector<vector<int>> tri(n + 1, vector<int>(n + 1));
+  for (int i = 1; i <= n; i++) {
+    for (int j = 1; j <= i; j++) {
+      cin >> tri[i][j];
+    }
   }
-  cout << title;
+  for (int i = 1; i <= n; i++) {
+    for (int j = 1; j <= i; j++) {
+      tri[i][j] += max(tri[i - 1][j - 1], tri[i - 1][j]);
+    }
+  }
+  cout << *max_element(tri[n].begin(), tri[n].end());
 
   return 0;
 }
