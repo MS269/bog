@@ -1,2 +1,0 @@
-C:\Users\김동욱\source\repos\C_Start_Link\Debug\C_Start_Link.exe
-C:\Users\김동욱\source\repos\C_Start_Link\Debug\C_Start_Link.pdb

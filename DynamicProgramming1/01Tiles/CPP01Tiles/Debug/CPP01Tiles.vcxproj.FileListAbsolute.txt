@@ -1,4 +1,0 @@
-C:\Users\김동욱\source\repos\CPP01Tiles\Debug\CPP01Tiles.exe
-C:\Users\김동욱\source\repos\CPP01Tiles\Debug\CPP01Tiles.pdb
-C:\Prog\BOG\DynamicProgramming1\01Tiles\CPP01Tiles\Debug\CPP01Tiles.exe
-C:\Prog\BOG\DynamicProgramming1\01Tiles\CPP01Tiles\Debug\CPP01Tiles.pdb

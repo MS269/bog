@@ -1,2 +1,0 @@
-C:\Users\김동욱\source\repos\CPPPadovanSequence\Debug\CPPPadovanSequence.exe
-C:\Users\김동욱\source\repos\CPPPadovanSequence\Debug\CPPPadovanSequence.pdb

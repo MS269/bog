@@ -1,2 +1,0 @@
-C:\Users\김동욱\source\repos\CPPFibonacci\Debug\CPPFibonacci.exe
-C:\Users\김동욱\source\repos\CPPFibonacci\Debug\CPPFibonacci.pdb

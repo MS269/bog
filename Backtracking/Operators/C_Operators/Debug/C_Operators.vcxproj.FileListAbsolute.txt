@@ -1,2 +1,0 @@
-C:\Users\김동욱\source\repos\C_Operators\Debug\C_Operators.exe
-C:\Users\김동욱\source\repos\C_Operators\Debug\C_Operators.pdb

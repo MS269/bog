@@ -1,2 +1,0 @@
-C:\Users\김동욱\source\repos\CPP_NM3\Debug\CPP_NM3.exe
-C:\Users\김동욱\source\repos\CPP_NM3\Debug\CPP_NM3.pdb

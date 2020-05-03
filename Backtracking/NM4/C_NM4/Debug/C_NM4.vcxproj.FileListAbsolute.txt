@@ -1,2 +1,0 @@
-C:\Users\김동욱\source\repos\C_NM4\Debug\C_NM4.exe
-C:\Users\김동욱\source\repos\C_NM4\Debug\C_NM4.pdb

@@ -1,2 +1,0 @@
-C:\Users\김동욱\source\repos\C_Sudoku\Debug\C_Sudoku.exe
-C:\Users\김동욱\source\repos\C_Sudoku\Debug\C_Sudoku.pdb
