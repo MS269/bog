@@ -84,11 +84,10 @@ int main()
 
   int n, m;
   cin >> n >> m;
-  string temp;
+  board.resize(n);
   for (int i = 0; i < n; i++)
   {
-    cin >> temp;
-    board.push_back(temp);
+    cin >> board[i];
   }
   int min_cnt = INT_MAX;
   for (int i = 0; i <= n - 8; i++)
