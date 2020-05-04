@@ -3,11 +3,8 @@
 #include <string>
 #include <limits>
 #include <algorithm>
-//#include <utility>
-//#include <cmath>
 
 using namespace std;
-//using ll = long long;
 
 vector<string> wbboard = {
   "WBWBWBWB",
@@ -32,8 +29,7 @@ vector<string> bwboard = {
 vector<string> board;
 
 
-int CheckWBBoard(int x, int y)
-{
+int CheckWBBoard(int x, int y) {
   int cnt = 0;
   for (int i = 0; i < 8; i++) {
     for (int j = 0; j < 8; j++) {
@@ -56,22 +52,6 @@ int CheckBWBoard(int x, int y) {
 }
 
 int main() {
-#define DEBUG
-#ifndef DEBUG
-#define DEBUG
-  FILE* stream;
-  freopen_s(&stream, "input.txt", "r", stdin);
-  freopen_s(&stream, "output.txt", "w", stdout);
-#endif // DEBUG
-
-//#define FASTIO
-#ifndef FASTIO
-#define FASTIO
-  ios::sync_with_stdio(false);
-  cin.tie(nullptr);
-  cout.tie(nullptr);
-#endif // FASTIO
-
   int n, m;
   cin >> n >> m;
   board.resize(n);
