@@ -2,6 +2,7 @@
 #include <vector>
 
 using namespace std;
+
 const int kMod = 15746;
 
 int main() {

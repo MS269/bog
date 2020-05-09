@@ -1,7 +1,6 @@
 #include <iostream>
 #include <vector>
 #include <string>
-#include <limits>
 #include <algorithm>
 
 using namespace std;
@@ -57,7 +56,7 @@ int main() {
   board.resize(n);
   for (int i = 0; i < n; i++)
     cin >> board[i];
-  int min_cnt = INT_MAX;
+  int min_cnt = 987654321;
   for (int i = 0; i <= n - 8; i++) {
     for (int j = 0; j <= m - 8; j++) {
       min_cnt = min(min_cnt, CheckWBBoard(i, j));
