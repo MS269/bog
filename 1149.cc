@@ -15,7 +15,7 @@ int main() {
     cost[i][1] += min(cost[i - 1][0], cost[i - 1][2]);
     cost[i][2] += min(cost[i - 1][1], cost[i - 1][0]);
   }
-  cout << min(cost[n][0], min(cost[n][1], cost[n][2]));
+  cout << min({ cost[n][0], cost[n][1], cost[n][2] });
 
   return 0;
 }
