@@ -1,10 +1,24 @@
-// lis(pos) = pos번째 항부터 시작하는 증가 부분 수열 중 가장 긴 길이
+#include <iostream>
+#include <vector>
+#include <algorithm>
 
-// 최종적으로 얻고자 하는 답은 lis(0) ~ lis(N-1) 중 최댓값이 됩니다.
+using namespace std;
 
-// 조금 어렵습니다. 지금까지와는 달리 한 문제를 푸는 데 O(N)의 시간이 걸립니다.
+int main() {
+  int n;
+  cin >> n;
+  vector<int> a(n + 1);
+  for (int i = 1; i <= n; i++)
+    cin >> a[i];
+  vector<int> dp(n + 1);
+  for (int i = 1; i <= n; i++) {
+    dp[i] = a[i];
+    for (int j = 1; j < i; j++) {
+      if (a[i] > a[j])
+        dp[i] = max(dp[i], dp[j] + a[i]);
+    }
+  }
+  cout << *max_element(dp.begin(), dp.end());
 
-// pos보다 오른쪽에 있는 A[pos]보다 큰 모든 항에 대해, 그 위치를 next라 할 때 lis(next)+1 중 최댓값을 골라내야 하고, 때문에 오른쪽에 남은 모든 항을 다 검사해 보아야 합니다.
-
-// 따라서 공간복잡도는 O(N)이지만 시간복잡도는 O(N)*O(N) = O(N^2)입니다.
-// [출처] 동적 계획법(Dynamic Programming) (수정: 2019-02-07)|작성자 라이
+  return 0;
+}

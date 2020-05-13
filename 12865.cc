@@ -1,7 +1,23 @@
-// 굉장히 유명한 NP-Hard 문제 중 하나인 냅색 문제(knapsack problem)입니다. 물품을 순서대로 보면서 넣을지 말지 결정하는데, 넣으려면 당연히 가방의 남은 용량이 이 물품의 무게 이상이어야 합니다.
+#include <iostream>
+#include <vector>
+#include <algorithm>
 
-// knapsack(itemNum, limit)은 itemNum번보다 이전의 물품은 다 고려한 상태에, 현재 가방에 남은 용량이 limit일 때 앞으로 itemNum~N번 물품을 넣으면서 얻을 수 있는 최대 가치 합입니다. 매 문제는 이번 물품을 넣을지 말지만 결정하면 되므로 총 O(NV)의 시간에 풀 수 있습니다.
+using namespace std;
 
-// 분명 위에서 NP-Hard 문제라고 했는데 다항 시간에 풀리는 것 같다고요? 그렇지는 않습니다. P, NP 등의 정의에서 사용되는 다항 시간은 문제에 등장하는 값에 대해서가 아니라, 문제를 표현하는 비트 수에 대해서입니다. 이 문제에서는 V에 대해서는 다항 시간이지만 V를 표현하는 비트 수에 대해서는 지수적으로 크게 됩니다. 자세한 건 검색을...
-// [출처] 동적 계획법(Dynamic Programming) (수정: 2019-02-07)|작성자 라이
+int main() {
+  int n, k;
+  cin >> n >> k;
+  vector<pair<int, int>> vec(n + 1);
+  for (int i = 1; i <= n; i++)
+    cin >> vec[i].first >> vec[i].second;
+  vector<int> dp(k + 1);
+  for (int i = 1; i <= n; i++) {
+    for (int j = k; j >= 1; j--) {
+      if (vec[i].first <= j)
+        dp[j] = max(dp[j], dp[j - vec[i].first] + vec[i].second);
+    }
+  }
+  cout << dp[k];
 
+  return 0;
+}
