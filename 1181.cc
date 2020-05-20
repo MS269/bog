@@ -4,7 +4,7 @@
 
 using namespace std;
 
-bool compare(string a, string b) {
+bool Compare(string a, string b) {
   if (a.size() == b.size())
     return a < b;
   return a.size() < b.size();
@@ -16,7 +16,7 @@ int main() {
   vector<string> vec(n);
   for (int i = 0; i < n; ++i)
     cin >> vec[i];
-  sort(vec.begin(), vec.end(), compare);
+  sort(vec.begin(), vec.end(), Compare);
   cout << vec[0] << "\n";
   for (int i = 1; i < n; ++i) {
     if (vec[i - 1] != vec[i])

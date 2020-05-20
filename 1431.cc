@@ -4,7 +4,7 @@
 
 using namespace std;
 
-bool compare(string a, string b) {
+bool Compare(string a, string b) {
   if (a.size() == b.size()) {
     int a_sum = 0, b_sum = 0;
     for (auto c : a) {
@@ -28,7 +28,7 @@ int main() {
   vector<string> vec(n);
   for (int i = 0; i < n; ++i)
     cin >> vec[i];
-  sort(vec.begin(), vec.end(), compare);
+  sort(vec.begin(), vec.end(), Compare);
   for (auto a : vec)
     cout << a << "\n";
 
