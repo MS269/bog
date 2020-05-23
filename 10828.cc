@@ -7,27 +7,27 @@ const int kEmpty = -1;
 
 class Stack {
  public:
-  int stack[kMax];
-  int top;
+  int stack_[kMax];
+  int top_;
 
-  Stack() { this->top = kEmpty; }
+  Stack() { top_ = kEmpty; }
 
-  void Push(int x) { this->stack[++top] = x; }
+  void Push(int x) { stack_[++top_] = x; }
 
   int Pop() { 
-    if (this->top > kEmpty) { return this->stack[this->top--]; }
+    if (top_ > kEmpty) { return stack_[top_--]; }
     else { return -1; }
   }
 
-  int Size() { return this->top + 1; }
+  int Size() { return top_ + 1; }
 
   bool Empty() {
-    if (this->top == kEmpty) { return true; }
+    if (top_ == kEmpty) { return true; }
     else { return false; }
   }
 
   int Top() {
-    if (this->top > kEmpty) { return this->stack[this->top]; }
+    if (top_ > kEmpty) { return stack_[top_]; }
     else { return -1; }
   }
 };
