@@ -9,7 +9,7 @@ using vvl = vector<vl>;
 
 const int kMod = 1000;
 
-vvl operator*(const vvl &a, const vvl &b) {
+vvl operator*(const vvl& a, const vvl& b) {
   ll s = a.size();
   vvl ret(s, vl(s));
   for (ll i = 0; i < s; ++i) {
